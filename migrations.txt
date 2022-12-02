@@ -1,0 +1,5 @@
+Making a DB related change, new models, edit existing models, etc...
+Should follow this
+- python manage.py makemigrations <app_name>
+- python manage.py sqlmigrate <app_name> <migration>
+- python manage.py migrate
